@@ -1,0 +1,7 @@
+n = int(input())
+B = bin(n)
+O = oct(n)
+H = hex(n)
+print(F"Binary Equivalent of {n} is {B}")
+print(F"Octal Equivalent of {n} is {O}")
+print(F"Hexadecimal Equivalent of {n} is {H}")
